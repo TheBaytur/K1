@@ -6,7 +6,24 @@ fun main(args: Array<String>) { // Office kotlin version
 
     // остатое от деления %
 
-    println(10 % 3)
-    println(10 % 2)
+//    println(10 % 3)
+//    println(10 % 2)
 
+    // инкремент, декремент
+
+    var counter = 0
+    counter = counter + 1
+    counter += 1
+    counter++
+
+    counter -= 1
+    counter--
+
+    ++counter
+    --counter
+
+    println(counter)
+
+    println(a > b)
+    println(a < b)
 }
